@@ -1,0 +1,191 @@
+body {
+    background-color: rgb(193,64,64);
+    color: rgb(255,255,255);
+    font-family: 'Bree Serif', serif;
+    margin: 1em;
+}
+
+nav {
+    background-color: rgb(239,227,227);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px 30px;
+    
+    margin: 2em;
+    padding-right: 1.5em;
+}
+
+.navLeft {
+    color: rgb(193,64,64);
+    font-size: 2em;
+    margin-left: 1.5em;
+}
+
+.navRight {
+    color: rgb(193,64,64);
+    font-size: 1.2em;
+    margin-right: 1em;
+    
+}
+
+.pokeMain  {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    color : rgb(255,255,255);
+}
+
+.pokeVignette a {
+    color: rgb(249,211,211);
+}
+
+a:hover {
+    color: rgb(193,64,64);
+}
+
+.pokeVignette {
+
+    background: rgb(152,44,44);
+    border-radius: 2em 2em ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-width: 31%;
+    margin: 1em;
+    justify-content: space-around;
+}
+
+img {
+    margin-top: 1em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(249,211,211);
+}
+
+.detailsPokeName {
+    color: rgb(255,255,255);
+    margin:1em;
+}
+
+h4 {
+
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.mainDetails {
+    display: flex;
+    justify-content: center;
+}
+
+.singleStats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.singleStatsLeft {
+    display: flex;
+    justify-content: space-between;
+    width: 10em;
+}
+
+.typesAndStats {
+    background-color: rgb(171,56,56);
+    border-radius: 10px;
+    margin-left: 1em;
+    padding: 2em 1em 2em 1em;
+    width: 33%;
+}
+
+.allTypes {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.pokemonType {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.5;
+    min-width: 5em;
+    min-height: 2.5em;
+    margin: 0.8em 0.5em 0.8em 0;
+
+    border-radius: 5px;
+}
+
+h5 {
+    font-size: 1.2em;
+    margin-bottom: 1em;   
+}
+
+progress {
+    width:20em;
+    height: 1.5em;
+    padding:2px;
+    border-radius: 1px;
+
+    position: relative;
+
+
+    text-align:center;
+    vertical-align: 0;
+}
+
+progress::-webkit-progress-bar {
+    border-radius: 5px;
+    background-color:rgb(99,43,43);
+}
+
+progress::-webkit-progress-value {
+    border-radius: 5px;
+    background-color:rgb(255,255,255);
+
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+
+.sectionType {
+
+}
+
+.displayTypes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(255,255,255);
+}
+
+.singleType {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    margin: 0.2em;
+    min-width: 30%;
+    min-height: 4em;
+
+}
+
+.footerLink {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
