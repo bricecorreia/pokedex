@@ -3,8 +3,11 @@ image:
 
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: composer install # runs during prebuild
-    command: php -S localhost:8080 -t public
+  - init: |
+      composer install
+      gp sync-done installation
+
+  - init: php -S localhost:8080 -t public
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
